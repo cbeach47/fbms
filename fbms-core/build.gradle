@@ -17,6 +17,10 @@ dependencies {
     compile "org.springframework:spring-context:${springVersion}"
     compile "org.springframework:spring-web:${springVersion}"
     compile "org.springframework.security:spring-security-core:${springSecurityVersion}"
+    compile "org.apache.httpcomponents:httpmime:4.5.3"
+    compile "org.apache.httpcomponents:httpclient:4.5.3"
+    compile "org.apache.httpcomponents:httpclient-cache:4.5.3"
+    compile group: 'org.json', name: 'json', version: '20170516'
 
     compileOnly "javax.servlet:javax.servlet-api:${servletApiVersion}"
 
